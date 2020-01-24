@@ -7,9 +7,10 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LoginComponent } from "./pages/login/login.component";
 import { ListagemComponent } from "./pages/listagem/listagem.component";
 import { MatCardModule } from "@angular/material/card";
+import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, ListagemComponent],
+  declarations: [AppComponent, LoginComponent, ListagemComponent, RegisterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
